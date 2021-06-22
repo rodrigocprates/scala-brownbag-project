@@ -1,0 +1,7 @@
+[debug] > Exec({file:/C:/Users/Rodrigo%20Prates/Documents/dev/workspace/scala-brownbag-project/}scala-brownbag-project/clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 20/06/2021 11:50:25
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
