@@ -1,84 +1,45 @@
-##############################
-## Java
-##############################
-.mtj.tmp/
-*.class
-*.jar
-*.war
-*.ear
-*.nar
-hs_err_pid*
+# bloop and metals
+.bloop
+.bsp
 
-##############################
-## Maven
-##############################
+# metals
+project/metals.sbt
+.metals
+
+# vs code
+.vscode
+
+# scala 3
+.tasty
+
+# sbt
+project/project/
+project/target/
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-pom.xml.bak
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
 
-##############################
-## Gradle
-##############################
-bin/
+# eclipse
 build/
-.gradle
-.gradletasknamecache
-gradle-app.setting
-!gradle-wrapper.jar
+.classpath
+.project
+.settings
+.worksheet
+bin/
+.cache
 
-##############################
-## IntelliJ
-##############################
-out/
-.idea/
-.idea_modules/
+# intellij idea
+*.log
 *.iml
 *.ipr
 *.iws
+.idea
 
-##############################
-## Eclipse
-##############################
-.settings/
-bin/
-tmp/
-.metadata
-.classpath
-.project
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.loadpath
-.factorypath
-
-##############################
-## NetBeans
-##############################
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
-
-##############################
-## Visual Studio Code
-##############################
-.vscode/
-.code-workspace
-
-##############################
-## OS X
-##############################
+# mac
 .DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache-main
+
+#general
+*.class
